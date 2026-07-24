@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Sathya Vijayakumar</title>
+  <meta name="description" content="Technical projects by Sathya Vijayakumar: research data infrastructure, product-innovation measurement from trademarks, and applications built with AI-assisted development.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='14' fill='%2314568f'/><text x='50' y='68' font-size='48' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>SV</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <header class="site-header">
+    <div class="site-name"><a href="index.html">Sathya Vijayakumar</a></div>
+    <nav class="site-nav">
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>A selection of the technical work behind my research, along with independent
+    software projects.</p>
+
+    <h2>Research Data Infrastructure</h2>
+
+    <div class="entry">
+      <div class="entry-title">Patent&ndash;Firm and Inventor Matching Pipelines</div>
+      <p>Research-grade databases engineered from administrative and archival sources for
+      the study of M&amp;A and innovation. The pipelines fuzzy-match roughly 1 million
+      patents, 46 million citation records, and 5.1 million trademark owners to firms,
+      and construct inventor-year panels covering 150,000+ inventors at acquired
+      technology companies. Built in Python and R with TF-IDF&ndash;based entity matching,
+      DuckDB, and Parquet.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-title">Measuring Product Innovation from Trademark Filings</div>
+      <p>A method for extracting new product launches from USPTO trademark filings,
+      enabling commercialization to be measured separately from patent-based invention.
+      Used in my dissertation to show that private equity and corporate acquirers reshape
+      different margins of target innovation.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-title">Shareholder Proposal Database</div>
+      <p>A hand-classified database of 1,800+ shareholder proposals linked to SEC filings,
+      lobbying records, ESG ratings, and financial data, supporting research on investor
+      activism and shareholder democracy.</p>
+    </div>
+
+    <h2>Software</h2>
+
+    <div class="entry">
+      <div class="entry-title">NextUp</div>
+      <p>A Goodreads-style web application for tracking, rating, and discovering TV shows.
+      Designed, built, and shipped end-to-end using AI-assisted development with the
+      Claude Code CLI. <a href="https://nextup-roan.vercel.app" target="_blank" rel="noopener">Try it live</a>.</p>
+    </div>
+
+    <h2>In Development</h2>
+
+    <div class="entry">
+      <p class="muted">Ongoing work applying large-scale data engineering and causal
+      inference to the economics of AI &mdash; details to come.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Sathya Vijayakumar &middot; The Wharton School, University of Pennsylvania &middot;
+    <a href="mailto:sathyav@wharton.upenn.edu">Email</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
